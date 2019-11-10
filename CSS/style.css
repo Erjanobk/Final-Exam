@@ -1,0 +1,160 @@
+#ams{
+    padding: 0;
+} 
+
+aside{display: block;
+    padding: 20px;
+}
+
+#bar{
+    font-size: 300%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    color: blanchedalmond;
+    text-decoration: none;
+    background-color: black;
+} 
+
+.bosenlommer{
+    display: block;
+    block-size: 300px;
+}
+
+#contact{
+    margin-left: 30%;
+    padding: 0;
+    width: 200px;
+    height: 200px;
+    word-wrap: break-word;
+    position: relative;
+    left: 2em;
+    top: 2em;
+    float: none;
+}
+
+footer{
+    display: block;
+    text-align: center;
+}
+
+@media (min-width: 900px){
+    .amst{
+        display:flex;    
+    }
+}
+@media (min-width: 900px){
+    .bnl{
+    display: flex;  
+}
+
+nav{
+    position: sticky;
+    font-size: 20px;
+    margin-left: -10px;
+    margin-right: 0px;                                       
+    margin-bottom:  10px ;     
+    z-index: 1; 
+    text-decoration: none;
+}
+
+.picrow3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.picrow2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.picrow1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+p{ display: block;
+    padding: 20px;
+}
+
+#pic{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#pica{
+    display: block;
+    block-size: 300px;
+}
+
+#img4{display: block;
+    margin: auto;
+    block-size: 200px;
+    }
+    
+    .head{
+        display: block;
+        text-align: center;
+      }
+
+
+.sportpictures{
+    display: block;
+    block-size: 225px;
+}
+
+
+#video{
+    position: inherit;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+    width: 260px;
+}
+
+body{
+    background-color: #757575;
+}
+
+#hdr{
+    font-size: 300%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

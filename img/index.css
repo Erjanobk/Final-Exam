@@ -1,0 +1,141 @@
+
+#bnl{
+    display: flex;   
+}
+
+#bel{
+    align-items: center;
+    float: auto;
+}
+
+.first{display: block;
+block-size: 300px;
+align-content: space-between;
+}
+
+.sportpictures{
+    display: block;
+    block-size: 225px;
+}
+
+.bosenlommer{
+    display: block;
+    block-size: 300px;
+}
+
+#bike{display: block;
+    block-size: 300px;
+}
+
+#img4{display: block;
+margin: auto;
+block-size: 200px;
+}
+
+#secondrary{display: block;
+    margin: 100px;;
+}
+
+#bar{
+    position: sticky;
+    font-size: 300%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   margin: auto;
+}
+.head{
+  display: block;
+  text-align: center;
+}
+
+#pica{
+    display: block;
+    block-size: 300px;
+}
+
+#pic{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer{
+    display: block;
+    text-align: center;
+}
+
+.picrow1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.picrow2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.picrow3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 900px){
+    .amst{
+        display:flex;
+        justify-items: center;
+    }
+}
+@media (min-width: 900px){
+    #bnl{
+    display: flex;
+}
+
+nav{position: sticky;
+top: 0;
+margin-left: -10px;
+background-color:black;
+margin-right: -10px;
+}
+
+#bar a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+#contact{
+    margin-left: 30%;
+    padding: 0;
+    width: 200px;
+    height: 200px;
+    word-wrap: break-word;
+    position: relative;
+    left: 2em;
+    top: 2em;
+    float: none;
+}
+
+p{
+    padding: 20px;
+}
+
+aside{
+    padding: 20px;
+}
+
+#video{
+    position: inherit;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+    width: 260px;
+}
